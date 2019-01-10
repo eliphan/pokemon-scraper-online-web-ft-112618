@@ -40,7 +40,7 @@ describe "Pokemon" do
     end
   end
 
-  describe "BONUS" do
+ # describe "BONUS" do
 
     before do
       @sql_runner.execute_create_hp_column
@@ -69,6 +69,5 @@ describe "Pokemon" do
     xit "alters Magikarp's hp" do
       magikarp.alter_hp(0, @db)
       expect(Pokemon.find(2, @db).hp).to eq(0)
-    end
-  end
+    #end
 end
