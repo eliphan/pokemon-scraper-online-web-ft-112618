@@ -9,4 +9,7 @@ class Pokemon
     @hp = hp
   end
   
+  def self.save
+    
+  
 end
